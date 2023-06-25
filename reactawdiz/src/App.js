@@ -7,12 +7,18 @@ import Login from "./components/Login";
 import About from "./components/About";
 import Counter from "./components/Counter";
 import { Routes, Route } from "react-router-dom";
+import IsLogged from "./components/IsLogged";
+import CounterApp from "./components/CounterApp";
 
 function App() {
   return (
     <>
       <Navbar />
       <Counter />
+
+      <IsLogged />
+
+      <CounterApp />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/login" element={<Login />} />
