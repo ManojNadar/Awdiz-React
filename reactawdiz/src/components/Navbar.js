@@ -5,7 +5,7 @@ const Navbar = () => {
   const style = {
     display: "flex",
     justifyContent: "space-around",
-    backgroundColor: "aqua",
+    backgroundColor: "grey",
   };
 
   return (
@@ -13,9 +13,9 @@ const Navbar = () => {
       <h2>Navbar</h2>
 
       <div className="link">
-        <Link to="/">Home</Link>
+        {/* <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
-        <Link to="/about">About</Link>
+        <Link to="/about">About</Link> */}
       </div>
     </div>
   );
