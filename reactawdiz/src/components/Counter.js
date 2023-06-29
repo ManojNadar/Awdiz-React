@@ -9,6 +9,8 @@ const Counter = () => {
   function sub() {
     setCount((prevCount) => prevCount - 1);
   }
+
+  // console.log(typeof count);
   return (
     <div>
       <button onClick={add}>Add +</button>
