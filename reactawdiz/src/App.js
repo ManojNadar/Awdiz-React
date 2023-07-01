@@ -15,6 +15,7 @@ import UseEffectEmptyDep from "./components/UseEffectEmptyDep";
 import UseEffectsingleDep from "./components/UseEffectsingleDep";
 import UseEffectMultipleDep from "./components/UseEffectMultipleDep";
 import Params from "./components/Params";
+import UseParamsId from "./components/UseParamsId";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/params" element={<Params />} />
+        <Route exact path="/useParams/:id" element={<UseParamsId />} />
         <Route exact path="/nodep" element={<UseEffectNoDep />} />
         <Route exact path="/emptydep" element={<UseEffectEmptyDep />} />
         <Route
