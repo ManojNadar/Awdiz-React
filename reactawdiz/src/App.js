@@ -16,6 +16,8 @@ import UseEffectsingleDep from "./components/UseEffectsingleDep";
 import UseEffectMultipleDep from "./components/UseEffectMultipleDep";
 import Params from "./components/Params";
 import UseParamsId from "./components/UseParamsId";
+import Param2 from "./components/Param2";
+import SingleParam from "./components/SingleParam";
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/param2" element={<Param2 />} />
+
+        <Route exact path="/singleparam/:id" element={<SingleParam />} />
         <Route exact path="/params" element={<Params />} />
         <Route exact path="/useParams/:id" element={<UseParamsId />} />
         <Route exact path="/nodep" element={<UseEffectNoDep />} />
