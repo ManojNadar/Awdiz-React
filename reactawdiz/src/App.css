@@ -46,3 +46,24 @@
 /* Link {
   text-decoration: none;
 } */
+
+.red {
+  color: red;
+}
+
+.active {
+  background-color: green;
+  color: white;
+  width: 25%;
+  height: 50px;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.non-active {
+  background-color: grey;
+  color: white;
+  width: 35%;
+  height: 50px;
+  cursor: not-allowed;
+  font-size: 1.5em;
+}

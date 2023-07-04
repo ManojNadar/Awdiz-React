@@ -18,6 +18,8 @@ import Params from "./components/Params";
 import UseParamsId from "./components/UseParamsId";
 import Param2 from "./components/Param2";
 import SingleParam from "./components/SingleParam";
+import DynamicStyle from "./components/DynamicStyle";
+import DynamicClasses from "./components/DynamicClasses";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Route exact path="/useParams/:id" element={<UseParamsId />} />
         <Route exact path="/nodep" element={<UseEffectNoDep />} />
         <Route exact path="/emptydep" element={<UseEffectEmptyDep />} />
+        <Route exact path="/dynamicstyle" element={<DynamicStyle />} />
+        <Route exact path="/dynamicclasses" element={<DynamicClasses />} />
         <Route
           exact
           path="/UseEffectsingleDep"
