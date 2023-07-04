@@ -7,10 +7,10 @@ const UseParamsId = () => {
   console.log(data);
   return (
     <>
-      {/* <h2>Use Params </h2>
+      <h2>Use Params </h2>
       <h1 style={{ backgroundColor: "aqua" }}>
         product Id : {data && data.id}
-      </h1> */}
+      </h1>
       {product
         .filter((element) => data.id === element.p_id)
         .map((e) => (
