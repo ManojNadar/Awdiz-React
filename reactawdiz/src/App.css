@@ -67,3 +67,28 @@
   cursor: not-allowed;
   font-size: 1.5em;
 }
+
+/* form */
+#mainForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#formHeading {
+  text-align: center;
+}
+#formContainer {
+  text-align: center;
+  margin: auto;
+  /* border: 1px solid red; */
+  width: 50%;
+}
+#formContainer input {
+  width: 90%;
+  height: 35px;
+}
+
+#submit {
+  margin-top: 3%;
+}

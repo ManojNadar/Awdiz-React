@@ -20,6 +20,7 @@ import Param2 from "./components/Param2";
 import SingleParam from "./components/SingleParam";
 import DynamicStyle from "./components/DynamicStyle";
 import DynamicClasses from "./components/DynamicClasses";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route exact path="/emptydep" element={<UseEffectEmptyDep />} />
         <Route exact path="/dynamicstyle" element={<DynamicStyle />} />
         <Route exact path="/dynamicclasses" element={<DynamicClasses />} />
+        <Route exact path="/form" element={<Form />} />
         <Route
           exact
           path="/UseEffectsingleDep"
