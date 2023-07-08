@@ -21,6 +21,8 @@ import SingleParam from "./components/SingleParam";
 import DynamicStyle from "./components/DynamicStyle";
 import DynamicClasses from "./components/DynamicClasses";
 import Form from "./components/Form";
+import FormOnSingleState from "./components/FormOnSingleState";
+import CallBackHook from "./components/CallBackHook";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
         <Route exact path="/dynamicstyle" element={<DynamicStyle />} />
         <Route exact path="/dynamicclasses" element={<DynamicClasses />} />
         <Route exact path="/form" element={<Form />} />
+        <Route exact path="/formsinglestate" element={<FormOnSingleState />} />
+        <Route exact path="/callbackhook" element={<CallBackHook />} />
         <Route
           exact
           path="/UseEffectsingleDep"
