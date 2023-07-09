@@ -4,6 +4,7 @@ const CallBackHookTodo = ({ todo, addTodo }) => {
   console.log("added todo");
   return (
     <>
+      <h2>Todo</h2>
       {todo.map((item, i) => (
         <h1 key={i}>{item}</h1>
       ))}
