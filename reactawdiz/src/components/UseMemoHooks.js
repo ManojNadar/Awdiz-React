@@ -9,6 +9,8 @@ const UseMemoHooks = () => {
     return ExpensiveCalaculation(count);
   }, [count]);
 
+  //   const number = ExpensiveCalaculation(count);
+
   const addCount = () => {
     setCount((prevCount) => prevCount + 1);
   };

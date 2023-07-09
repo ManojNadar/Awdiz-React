@@ -52,6 +52,7 @@ function App() {
         <Route exact path="/formsinglestate" element={<FormOnSingleState />} />
         <Route exact path="/callbackhook" element={<CallBackHook />} />
 
+        <Route exact path="usememohook" element={<UseMemoHooks />} />
         <Route exact path="usereducerhook" element={<UseReducerHook />} />
         <Route
           exact
