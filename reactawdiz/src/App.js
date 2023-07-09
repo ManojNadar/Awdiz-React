@@ -23,6 +23,8 @@ import DynamicClasses from "./components/DynamicClasses";
 import Form from "./components/Form";
 import FormOnSingleState from "./components/FormOnSingleState";
 import CallBackHook from "./components/CallBackHook";
+import UseMemoHooks from "./components/UseMemoHooks";
+import UseReducerHook from "./components/UseReducerHook";
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
         <Route exact path="/form" element={<Form />} />
         <Route exact path="/formsinglestate" element={<FormOnSingleState />} />
         <Route exact path="/callbackhook" element={<CallBackHook />} />
+
+        <Route exact path="usereducerhook" element={<UseReducerHook />} />
         <Route
           exact
           path="/UseEffectsingleDep"
