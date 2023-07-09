@@ -38,9 +38,7 @@ const FormOnSingleState = () => {
   //     e.preventDefault();
 
   //     if (userData.name && userData.email && userData.password) {
-  //       if (!userData.name) {
-  //         if (!userData.email) {
-  //           if (!userData.password) {
+  //
   //             if (userData.password.length > 7) {
   //               alert("registerattion success");
   //               setUserData({
@@ -51,15 +49,7 @@ const FormOnSingleState = () => {
   //             } else {
   //               alert("password length must be atleast 8  or more characters");
   //             }
-  //           } else {
-  //             alert("password is required");
-  //           }
-  //         } else {
-  //           alert("email is required");
-  //         }
-  //       } else {
-  //         alert("name is required");
-  //       }
+  //
   //     } else {
   //       alert("all fields are mandatory");
   //     }
