@@ -13,6 +13,7 @@ const CallBackHook = () => {
   const addTodo = useCallback(() => {
     setTodo([...todo, "new todo added"]);
   }, [todo]);
+
   return (
     <>
       <CallBackHookTodo todo={todo} addTodo={addTodo} />

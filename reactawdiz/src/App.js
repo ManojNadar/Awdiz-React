@@ -25,6 +25,8 @@ import FormOnSingleState from "./components/FormOnSingleState";
 import CallBackHook from "./components/CallBackHook";
 import UseMemoHooks from "./components/UseMemoHooks";
 import UseReducerHook from "./components/UseReducerHook";
+import MultipleProducts from "./components/FetchProducts/MultipleProducts";
+import FetchSingleProduct from "./components/FetchProducts/FetchSingleProduct";
 
 function App() {
   return (
@@ -66,8 +68,19 @@ function App() {
         />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/about" element={<About />} />
+
+        <Route
+          exact
+          path="/fetchmultipleproducts"
+          element={<MultipleProducts />}
+        />
+        <Route
+          exact
+          path="/fetchsingleproduct/:id"
+          element={<FetchSingleProduct />}
+        />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
